@@ -1,0 +1,30 @@
+.MovieList {
+  padding-top: 10px;
+
+  .list {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:100%;
+
+    @media all and (max-width: 400px) {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    .item {
+      display: block;
+      width: 500px;
+      max-width: 500px;
+      padding-top: 5px;
+      line-height: 18px;
+
+      @media all and (max-width: 400px) {
+        width: 320px;
+        max-width: 320px;
+      }
+    }
+  }
+}
