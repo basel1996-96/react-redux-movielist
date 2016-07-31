@@ -19,7 +19,10 @@
     "test": "karma start",
     "test:watch": "karma start --autoWatch=true --singleRun=false"
   },
-  "repository": "",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/shinta5150/react-redux-movielist"
+  },
   "keywords": [],
   "author": "Quentin",
   "devDependencies": {
